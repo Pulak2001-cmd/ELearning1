@@ -1,0 +1,43 @@
+@media screen and (max-width:400px){
+    .Allcourses{
+        
+        top: 650px;
+        left: 64px;
+        z-index: 100;
+    }
+    .Allinternships{
+        position: absolute;
+        top: 720px;
+        left: 20px;
+        width: 97%;
+    }
+    .Login{
+        visibility: visible;
+    }
+    .Allupevents{
+        position: absolute;
+        top: 650px;
+        left: 26px;
+        z-index: 100;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:800px){
+    .Allcourses{
+        position: absolute; top: 1050px;
+    }
+}
+@media screen and (min-width:1000px) {
+    .Allcourses{
+         left:670px; top: 810px;
+    }
+    .Allinternships{
+        position: absolute; top: 900px; left: 200px; width: 1029px;
+    }
+    .Login{
+        display: none;
+    }
+    .Allupevents{
+        position: absolute; top: 810px; left: 200px; width: 1029px;
+    }
+}
